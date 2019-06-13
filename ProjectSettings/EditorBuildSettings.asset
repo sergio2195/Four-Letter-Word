@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: fbd36c70b49db764690974489b42ae49
+  - enabled: 1
+    path: Assets/Scenes/Peach'sCastle.unity
+    guid: 82863aa9d99bc9341ad92bc274362b45
+  - enabled: 1
+    path: Assets/Scenes/Scene4.unity
+    guid: 6b7247f6ac3b32a4eafa07605c7367b4
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Scene2-1.unity
+    guid: faf27fc85c0396546a6806902a907c16
+  - enabled: 1
+    path: Assets/Scenes/Chapter2.unity
+    guid: 552d28c0299558f4e988ddafbfa83ad0
+  - enabled: 1
+    path: Assets/Scenes/DifficultyCurveScene.unity
+    guid: e67abc97172601540acca93e6838f480
+  - enabled: 1
+    path: Assets/Scenes/FinalChapter.unity
+    guid: aecf399ed948a364985cead2fbe940e5
+  - enabled: 1
+    path: Assets/Scenes/FourTrialScene.unity
+    guid: e3b40b48742e2324fa162c2751902a34
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 7834915395ec4c74c84e6a8611167c82
+  - enabled: 1
+    path: Assets/Scenes/FinalMenu.unity
+    guid: 67addd61664dfd14eafc2aba25f74d30
+  m_configObjects: {}
