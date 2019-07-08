@@ -1171,7 +1171,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28200
+  m_Name: pb_Mesh62546
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -53374,7 +53374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &489737310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53398,7 +53398,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.54, y: 4.75, z: 2}
+  m_Size: {x: 11, y: 4, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &489737312
 Transform:
@@ -53408,7 +53408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489737309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7628665, y: -3.5708315, z: -5.17}
+  m_LocalPosition: {x: -0.7628665, y: -0.89, z: -4.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 193065195}
@@ -53546,6 +53546,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8687899401043950049, guid: e1df461d1c02e3d4799df03596fb536c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1df461d1c02e3d4799df03596fb536c, type: 3}
 --- !u!1 &505296766 stripped
@@ -53673,7 +53678,9 @@ MonoBehaviour:
   triggerWatchOutRight: {fileID: 0}
   AudioBlur: {fileID: 0}
   AudioBlindZone: {fileID: 0}
-  timeToStartType: 14
+  AudioCrackBone: {fileID: 0}
+  Explosion: {fileID: 0}
+  timeToStartType: 15
   temtationHall: {fileID: 0}
   scenario1: {fileID: 0}
   trapRoom: {fileID: 0}
@@ -54357,7 +54364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943513462}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.62, y: 0.03, z: 12.35}
+  m_LocalPosition: {x: 0.62, y: 0.17, z: 12.26}
   m_LocalScale: {x: 1, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -66536,7 +66543,7 @@ GameObject:
   - component: {fileID: 1731607604}
   - component: {fileID: 1731607603}
   m_Layer: 0
-  m_Name: TriggerSentences (1)
+  m_Name: TriggerSentences2
   m_TagString: TriggerSentence2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72694,6 +72701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b7ab95d8034a24daa554e2620f0971, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerSentence1: {fileID: 489737309}
   sentence1: {fileID: 489737310}
   sentence2: {fileID: 1731607603}
   sentence3: {fileID: 0}
@@ -72721,6 +72729,7 @@ MonoBehaviour:
   sentenceMath: {fileID: 0}
   sentenceWaitJoke: {fileID: 0}
   sentenceFourTrialCompleted: {fileID: 0}
+  sentence18: {fileID: 0}
   evilLaugh: {fileID: 0}
   sinisterMusic: {fileID: 0}
   thunderSoundEffect: {fileID: 0}

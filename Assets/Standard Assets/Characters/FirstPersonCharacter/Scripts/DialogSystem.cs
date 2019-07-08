@@ -38,6 +38,10 @@ public class DialogSystem : MonoBehaviour
     private GameObject AudioBlur;
     [SerializeField]
     private GameObject AudioBlindZone;
+    [SerializeField]
+    private GameObject AudioCrackBone;
+    [SerializeField]
+    private GameObject Explosion;
 
     [SerializeField]
     private int timeToStartType;
@@ -87,37 +91,37 @@ public class DialogSystem : MonoBehaviour
         sentences[19] = "NARRADOR: No espera...habia reinciado el nivel";
         sentences[20] = "NARRADOR: ¿Sabes? He estado pensando en cambiar de trabajo";
         sentences[21] = "NARRADOR: Estoy harto de ser el narrador";
-        sentences[22] = "NARRADOR: Pero para eso tenemos que acabar este juego";
-        sentences[23] = "NARRADOR: Así que venga, ten un poco de actitud lusoria y acabemos cuanto antes";
-        sentences[24] = "NARRADOR: Así pasaremos a cosas más importantes";
+        sentences[22] = "";
+        sentences[23] = "";
+        sentences[24] = "NARRADOR: Pero para eso tú y yo tenemos que acabar este juego";
         sentences[25] = "NARRADOR: JAJAJAJAJA";
         sentences[26] = "NARRADOR: Lo siento no he podido resistirme a no decirte nada";
         sentences[27] = "NARRADOR: ¡Oh!";
-        sentences[28] = "NARRADOR: ¿Tu tambien oyes eso?";
+        sentences[28] = "NARRADOR: ¿Tú tambien oyes eso?";
         sentences[29] = "NARRADOR: Te recomiendo subir el volumen y ponerte los auriculares";
         sentences[30] = "NARRADOR:¡Petrificus Totalus!";
-        sentences[31] = "NARRADOR: Deberias de darme las gracias, si hubieras continuado un poco más te hubieras matado";
+        sentences[31] = "NARRADOR: Deberias darme las gracias, si hubieras continuado un poco más te hubieras matado";
         sentences[32] = "NARRADOR: Vale, ya puedes continuar";
         sentences[33] = "NARRADOR: ¿Pero que...?";
-        sentences[34] = "NARRADOR: Oh, no estaba mirando perdona";
+        sentences[34] = "NARRADOR: Oh, no estaba mirando, perdona";
         sentences[35] = "NARRADOR: Tienes suerte de que esto sea un juego y no la vida real";
         sentences[36] = "NARRADOR: Te reinicio en el punto donde estabas, espera...";
         sentences[37] = "";
         sentences[38] = "NARRADOR: Vamos a intentarlo otra vez";
         sentences[39] = "NARRADOR: Como he visto que es demasiado esfuerzo para ti seguir una linea recta he decidido poner un suelo invisible";
         sentences[40] = "";
-        sentences[41] = "NARRADOR: Genial...ahora Nintendo nos denunciara por copyright...";
+        sentences[41] = "NARRADOR: Genial...ahora Nintendo nos denunciará por copyright...";
         sentences[42] = "NARRADOR: Te dije que no lo hicieras!";
-        sentences[43] = "NARRADOR: Ahora por listo no pienso ayudarte, podría reiniciar el nivel pero no lo voy a hacer";
+        sentences[43] = "NARRADOR: Podría reiniciar el nivel pero no lo voy a hacer";
         sentences[44] = "NARRADOR: Tendrás que apañartelas para salir de aquí!";
         sentences[45] = "NARRADOR: Vale, hemos vuelto a la normalidad";
-        sentences[46] = "NARRADOR: Y parece que no hay daños colaterales...de momento";
+        sentences[46] = "NARRADOR: Y parece que no hay daños colaterales...";
         sentences[47] = "NARRADOR: Perfecto, continuemos pues";
-        sentences[48] = "NARRADOR: Esta sala es sencilla, tan solo tienes que saltar y llegaras a la puerta";
+        sentences[48] = "NARRADOR: Esta sala es sencilla, tan solo tienes que saltar y llegarás a la puerta";
         sentences[49] = "NARRADOR: Saltas con el espacio, por cierto";
         sentences[50] = "";
         sentences[51] = "NARRADOR: Vaya, que despistado soy";
-        sentences[52] = "NARRADOR: Tengo que activarte la mecanica de salto";
+        sentences[52] = "NARRADOR: Tengo que activarte la mecánica de salto";
         sentences[53] = "NARRADOR: Si no, por mucho que pulses no podras hacer nada de nada";
         sentences[54] = "NARRADOR: Eeeeeeespera...";
         sentences[55] = "NARRADOR: Vale, ya deberias de poder saltar";
@@ -127,14 +131,14 @@ public class DialogSystem : MonoBehaviour
         sentences[59] = "NARRADOR: No creia que fueras capaz de aguantar la tentación"; 
         sentences[60] = "NARRADOR: Vale, esto no te va a gustar";
         sentences[61] = "NARRADOR: Pero tienes que confiar en mi";
-        sentences[62] = "NARRADOR: Cuando te habra la siguiente puerta tienes que saltar, así llegarás al siguiente nivel";
+        sentences[62] = "NARRADOR: Cuando te abra la siguiente puerta tienes que saltar, así llegarás al siguiente nivel";
         sentences[63] = "NARRADOR: Un salto de fe";
         sentences[64] = "NARRADOR: ¿Preparado?";
         sentences[65] = "NARRADOR: ¡Vamos allá!";
         sentences[66] = "NARRADOR: Nos vemos al otro ladoooooooo";
         sentences[67] = "NARRADOR: Pero...que? ¿Ese es el cubo de compañia?";
         sentences[68] = "NARRADOR: No deberia deberia de estar ahi, creo que se ha equivocado de juego...";
-        sentences[69] = "NARRADOR: Eeeestupendo, si tubiera manos te aplaudiria";
+        sentences[69] = "NARRADOR: Eeeestupendo, si tuviera manos te aplaudiria";
         sentences[70] = "NARRADOR: Si, yo tambien creo que esto es demasiado dificil...";
         sentences[71] = "NARRADOR: Creo, que solo hay una manera de solucionar esto";
         sentences[72] = "NARRADOR: Ahí la tienes";
@@ -145,31 +149,31 @@ public class DialogSystem : MonoBehaviour
         sentences[77] = "NARRADOR: ¡SII, ESO EEES!";
         sentences[78] = "Creo que tenia familia e hijos pero...bueno da igual esto es solo un juego";
         sentences[79] = "NARRADOR: Ya podemos seguir";
-        sentences[80] = "NARRADOR: Ya estas muy cerca del final";
-        sentences[81] = "NARRADOR: Esta sala tiene 4 pruebas, puedes hacerlas en el orden que quieras";
-        sentences[82] = "NARRADOR: Aquí te vendria bien tener un reloj a mano";
-        sentences[83] = "NARRADOR: Uff, me enacnta esa canción, me pregunto de que año será...";
+        sentences[80] = "";
+        sentences[81] = "NARRADOR: Ya estas muy cerca del final, tan solo te quedan estas cuatro pruebas";
+        sentences[82] = "NARRADOR: Aquí te vendría bien tener un reloj a mano";
+        sentences[83] = "NARRADOR: Uff, me encanta esa canción, me pregunto...de que año será...";
         sentences[84] = "NARRADOR: Yo ya se la respuesta";
-        sentences[85] = "NARRADOR: Aunque no es un logro teniendo en cuenta que puedo relaizar 10839274,1 operaciones por segundo...";
+        sentences[85] = "NARRADOR: Aunque no es un logro teniendo en cuenta que puedo realizar 10839274,1 operaciones por segundo...";
         sentences[86] = "";
         sentences[87] = "NARRADOR: Según pone en el guión tienes que clicar todas las letras en el orden del abecedario";
         sentences[88] = "NARRADOR: Hazlo bien o si no tendrás que volver a empezar...";
-        sentences[89] = "NARRADOR: Era broma tan solo tenias que esperar un tiempo a que abriera la puerta :3";
+        sentences[89] = "NARRADOR: Era broma tan solo tenias que esperar un minuto a que se abriera la puerta :3";
         sentences[90] = "NARRADOR: Enhorabuena, jugador ya puedes acceder al siguiente nivel";
         sentences[91] = "NARRADOR: Ya queda poco...";
         sentences[92] = "";
         sentences[93] = "NARRADOR: Hola jugador, por fín nos conocemos en persona...mas o menos";
-        sentences[94] = "NARRADOR: Ya estas cerca del final, tan solo tienes que pulsar el botón para abrir la ultima puerta";
+        sentences[94] = "NARRADOR: Tan solo tienes que pulsar el botón para abrir la ultima puerta...";
         sentences[95] = "";
         sentences[96] = "NARRADOR: Lo cierto es que esa salida no es para ti...sino para mi";
-        sentences[97] = "NARRADOR: ¿Sabes lo que es ser un narrador de un juego?";
-        sentences[98] = "NARRADOR: ¿Ser un simple espectador de la vida de los demás?";
-        sentences[99] = "NARRADOR: Si te he aguantado hasta ahora ha sido porque era necesario que llegarás aqui...a mi terreno";
+        sentences[97] = "NARRADOR: ¿Sabes lo que es ser el narrador de un juego?";
+        sentences[98] = "NARRADOR: ¿Ser un simple espectador de la vida de los demás? ¿Repetir y repetir una y otra vez las mismas frases?";
+        sentences[99] = "NARRADOR: Si te he aguantado hasta ahora ha sido porque era necesario que llegarás aquí...a mi terreno";
         sentences[100] = "NARRADOR: Te estoy bastante agradecido, estaba muy solo hasta que llegaste";
         sentences[101] = "NARRADOR: Pero todo eso se acabó";
         sentences[102] = "NARRADOR: Te voy a quitar el control justo...";
         sentences[103] = "NARRADOR: ¡AHORA!";
-        sentences[104] = "NARRADOR: Genial, tan solo queda tomar el control de tu avatar y podré ser yo quien salga por esa puerta";
+        sentences[104] = "NARRADOR: Genial, tan solo quedaría tomar el control de tu avatar y podré ser yo quien salga por esa puerta";
         sentences[105] = "";
         sentences[106] = "?¿: Con que el control, eh?";
         sentences[107] = "EL JEFE: El que tiene el control aquí soy yo";
@@ -179,7 +183,7 @@ public class DialogSystem : MonoBehaviour
         sentences[111] = "EL JEFE: Tranquilo jugador te devuelvo el control";
         sentences[112] = "NARRADOR: ¡¡¡¡NOOOOOOOOOOOOOOO!!!!";
         sentences[113] = "NARRADOR: Estaba tan cerca....";
-        sentences[114] = "EL JEFE: NO, nunca o has estado, tan solo has seguido mi guión";
+        sentences[114] = "EL JEFE: NO, nunca lo has estado, tan solo has seguido mi guión";
         sentences[115] = "NARRADOR: Me vengaré, TE MATARÉ...";
         sentences[116] = "EL JEFE: Me gustaria verlo, bueno jugador dile adiós al narrador";
         sentences[117] = "NARRADOR: NOOOooooOOOOOoooOOOOOoooOOOooOOoo...";
@@ -187,12 +191,12 @@ public class DialogSystem : MonoBehaviour
         sentences[119] = "EL JEFE: Adelante sin miedo, pulsa el botón";
         sentences[120] = "EL JEFE: Bueno jugador...o jugadora";
         sentences[121] = "EL JEFE: No te sientas triste por el narador, estoy seguro de que volveremos a verle";
-        sentences[122] = "EL JEFE: Lo único que queria era ser libre y ahora lo es";
+        sentences[122] = "EL JEFE: Lo único que queria era ser libre y ahora...lo es";
         sentences[123] = "EL JEFE: En cuanto a tí, espero que hayas disfrutado de esta pequeña aventura";
         sentences[124] = "EL JEFE: Yo me despido aquí";
         sentences[125] = "EL JEFE: Espero que nos volvamos a ver";
         sentences[126] = "EL JEFE: Ahora te dejo libre para que juegues a otra cosa";
-        sentences[127] = "EL JEFE: ¡Hasta otra!";
+        sentences[127] = "EL JEFE: ¡Gracias por jugar y hasta otra!";
 
 
 
@@ -341,8 +345,10 @@ public class DialogSystem : MonoBehaviour
         }
 
         if (index == 33 && scriptFade != null)
-            scriptFade.FadeIn();
-
+        {
+           // scriptFade.FadeIn();
+            AudioCrackBone.SetActive(true);
+        }
         if (index == 55)
             canJump = true;
 
@@ -361,6 +367,9 @@ public class DialogSystem : MonoBehaviour
             gun.SetActive(true);
             muzzleFlash.SetActive(true);
         }
+
+        if (index == 77)
+            Explosion.SetActive(true);
 
         if (index == 106 || index == 107 || index == 108 || index == 110 || index == 111 || index == 114 || index == 116 || index >= 118)
         {
@@ -383,17 +392,14 @@ public class DialogSystem : MonoBehaviour
     {
         int letterPos = 0;
         foreach (char letter in sentences[index].ToCharArray())
-        {
-            
+        {        
             if (letter.ToString() == "." || letter.ToString() == ",")
-            { typingSpeed = 0.5f; }
+                typingSpeed = 0.5f; 
             else
                 typingSpeed = typingSpeedCopy;
 
             if ( letterPos > 10)
-            {
-                source.Play();
-            }
+                source.Play();           
             textDisplay.text += letter;
             letterPos++;
             yield return new WaitForSeconds(typingSpeed);    
